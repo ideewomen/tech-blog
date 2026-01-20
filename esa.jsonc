@@ -1,0 +1,8 @@
+{
+  "name": "tech-blog",
+  "installCommand": "npm install",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}
