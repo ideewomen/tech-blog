@@ -1,6 +1,7 @@
 {
   "name": "tech-blog",
-  "installCommand": "npm install",
+  "description": "我的博客",
+  "version": "1.0.0",
   "assets": {
     "directory": "./dist",
     "notFoundStrategy": "singlePageApplication"
