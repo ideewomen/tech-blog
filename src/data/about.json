@@ -1,0 +1,51 @@
+{
+  "about": {
+    "name": "张小明",
+    "title": "全栈开发工程师",
+    "avatar": "/images/avatar.png",
+    "bio": "热爱技术，专注于Web开发和用户体验设计。拥有5年开发经验，擅长React、Node.js等技术栈。",
+    "email": "xiaoming@example.com",
+    "github": "https://github.com/xiaoming",
+    "twitter": "https://twitter.com/xiaoming",
+    "linkedin": "https://linkedin.com/in/xiaoming",
+    "skills": [
+      {
+        "category": "前端开发",
+        "items": ["React", "Vue.js", "TypeScript", "Tailwind CSS", "Next.js"]
+      },
+      {
+        "category": "后端开发",
+        "items": ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB"]
+      },
+      {
+        "category": "工具与其他",
+        "items": ["Git", "Docker", "AWS", "CI/CD", "Linux"]
+      }
+    ],
+    "experience": [
+      {
+        "company": "科技公司A",
+        "position": "高级前端工程师",
+        "period": "2022 - 至今",
+        "description": "负责公司核心产品的前端架构设计和开发，带领团队完成多个重要项目。"
+      },
+      {
+        "company": "互联网公司B",
+        "position": "前端开发工程师",
+        "period": "2020 - 2022",
+        "description": "参与电商平台开发，负责用户界面和交互逻辑的实现。"
+      },
+      {
+        "company": "创业公司C",
+        "position": "全栈开发工程师",
+        "period": "2018 - 2020",
+        "description": "从零开始搭建公司的技术栈，完成多个MVP项目。"
+      }
+    ],
+    "statistics": {
+      "articles": 42,
+      "projects": 18,
+      "readers": "10K+"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "深入理解 React Hooks：从原理到实践",
+      "excerpt": "React Hooks 改变了我们编写组件的方式。本文将深入探讨 Hooks 的工作原理，并通过实例讲解如何在实际项目中高效使用它们。",
+      "content": "React Hooks 是 React 16.8 引入的新特性，它允许你在不编写 class 的情况下使用 state 以及其他的 React 特性...\n\n## 为什么需要 Hooks？\n\n在 Hooks 出现之前，组件的逻辑复用非常困难。高阶组件和 render props 会导致组件树嵌套过深，代码难以维护。\n\n## useState Hook\n\nuseState 是最基本的 Hook，用于在函数组件中添加状态管理...",
+      "author": "张小明",
+      "date": "2024-01-15",
+      "category": "React",
+      "tags": ["React", "Hooks", "前端"],
+      "cover": "/images/react-hooks.jpg",
+      "readTime": "8 分钟",
+      "views": 1256
+    },
+    {
+      "id": 2,
+      "title": "TypeScript 高级类型系统完全指南",
+      "excerpt": "TypeScript 的类型系统非常强大，掌握高级类型可以让你写出更安全、更优雅的代码。本文将详细介绍泛型、条件类型、映射类型等高级特性。",
+      "content": "TypeScript 作为 JavaScript 的超集，为开发者带来了强大的类型系统...\n\n## 泛型基础\n\n泛型是 TypeScript 类型系统中最强大的特性之一，它允许我们创建可复用的组件...\n\n## 条件类型\n\n条件类型允许根据类型关系选择类型，类似于 JavaScript 中的三元表达式...",
+      "author": "张小明",
+      "date": "2024-01-10",
+      "category": "TypeScript",
+      "tags": ["TypeScript", "类型系统", "前端"],
+      "cover": "/images/typescript.jpg",
+      "readTime": "12 分钟",
+      "views": 2341
+    },
+    {
+      "id": 3,
+      "title": "性能优化：让你的 React 应用飞起来",
+      "excerpt": "性能是用户体验的关键因素。本文分享多个实用的 React 性能优化技巧，帮助你构建流畅的应用。",
+      "content": "React 应用的性能优化是一个重要的话题，以下是一些实用的优化技巧...\n\n## 使用 React.memo\n\nReact.memo 是一个高阶组件，用于记忆组件的渲染结果...\n\n## useCallback 和 useMemo\n\n合理使用这两个 Hook 可以避免不必要的计算和重新渲染...",
+      "author": "张小明",
+      "date": "2024-01-05",
+      "category": "性能优化",
+      "tags": ["React", "性能优化", "前端"],
+      "cover": "/images/performance.jpg",
+      "readTime": "10 分钟",
+      "views": 3456
+    },
+    {
+      "id": 4,
+      "title": "深入 Node.js 事件循环机制",
+      "excerpt": "理解 Node.js 事件循环对于编写高效的异步代码至关重要。本文将从源码层面深入解析事件循环的工作原理。",
+      "content": "Node.js 的单线程非阻塞 I/O 模型使其非常适合处理高并发的 I/O 密集型应用...\n\n## 事件循环的各个阶段\n\n事件循环分为多个阶段，每个阶段都有特定的任务队列...\n\n## 微任务和宏任务\n\n理解微任务和宏任务的区别对于处理异步代码非常重要...",
+      "author": "张小明",
+      "date": "2023-12-28",
+      "category": "Node.js",
+      "tags": ["Node.js", "后端", "异步"],
+      "cover": "/images/nodejs.jpg",
+      "readTime": "15 分钟",
+      "views": 1876
+    },
+    {
+      "id": 5,
+      "title": "CSS Grid vs Flexbox：如何选择合适的布局方案",
+      "excerpt": "Grid 和 Flexbox 都是强大的布局工具，但它们各有特点。本文将详细对比两者的使用场景和最佳实践。",
+      "content": "现代 CSS 布局主要有两种方案：Flexbox 和 Grid，它们各自适合不同的场景...\n\n## Flexbox 的优势\n\nFlexbox 是一维布局方案，非常适合处理线性布局...\n\n## Grid 的优势\n\nGrid 是二维布局方案，适合处理复杂的网格布局...",
+      "author": "张小明",
+      "date": "2023-12-20",
+      "category": "CSS",
+      "tags": ["CSS", "布局", "前端"],
+      "cover": "/images/css-layout.jpg",
+      "readTime": "7 分钟",
+      "views": 987
+    },
+    {
+      "id": 6,
+      "title": "Docker 容器化实践：从入门到精通",
+      "excerpt": "容器化技术已经成为现代应用部署的标准实践。本文将带你全面了解 Docker，从基础概念到生产环境部署。",
+      "content": "Docker 是一个开源的容器化平台，它允许开发者将应用及其依赖打包到一个可移植的容器中...\n\n## Docker 核心概念\n\nDocker 的核心概念包括镜像、容器和仓库...\n\n## 编写 Dockerfile 最佳实践\n\n一个良好的 Dockerfile 应该遵循以下最佳实践...",
+      "author": "张小明",
+      "date": "2023-12-15",
+      "category": "DevOps",
+      "tags": ["Docker", "DevOps", "容器化"],
+      "cover": "/images/docker.jpg",
+      "readTime": "14 分钟",
+      "views": 2134
+    },
+    {
+      "id": 7,
+      "title": "RESTful API 设计最佳实践",
+      "excerpt": "设计一个好的 API 需要考虑多方面因素。本文总结了 RESTful API 设计的核心原则和常见陷阱。",
+      "content": "RESTful API 是现代 Web 应用的基石，一个良好的 API 设计能够提升开发效率和用户体验...\n\n## REST 原则\n\nREST 架构风格的核心原则包括统一接口、无状态、可缓存等...\n\n## API 版本管理\n\n随着 API 的演进，版本管理变得至关重要...",
+      "author": "张小明",
+      "date": "2023-12-10",
+      "category": "后端开发",
+      "tags": ["API", "REST", "架构"],
+      "cover": "/images/api-design.jpg",
+      "readTime": "11 分钟",
+      "views": 1567
+    },
+    {
+      "id": 8,
+      "title": "Web 安全：防范常见攻击策略",
+      "excerpt": "Web 安全不容忽视。本文介绍常见的 Web 攻击方式和防范措施，帮助你构建更安全的应用。",
+      "content": "Web 应用面临各种安全威胁，了解这些威胁并采取相应的防范措施非常重要...\n\n## XSS 跨站脚本攻击\n\nXSS 是最常见的 Web 攻击之一，防范措施包括输入验证和输出编码...\n\n## CSRF 跨站请求伪造\n\nCSRF 攻击利用用户的身份信息进行未授权操作，防范措施包括使用 CSRF Token...",
+      "author": "张小明",
+      "date": "2023-12-05",
+      "category": "安全",
+      "tags": ["安全", "Web", "攻击防范"],
+      "cover": "/images/security.jpg",
+      "readTime": "13 分钟",
+      "views": 2890
+    }
+  ],
+  "categories": ["全部", "React", "TypeScript", "Node.js", "CSS", "DevOps", "安全", "后端开发"],
+  "tags": ["React", "TypeScript", "Node.js", "性能优化", "CSS", "Docker", "DevOps", "API", "安全", "前端", "后端", "异步", "布局"]
+}
